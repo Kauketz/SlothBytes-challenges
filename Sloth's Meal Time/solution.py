@@ -19,7 +19,7 @@ def timeDifference(current, meal):
 
     diff = total2 - total1
     if diff < 0:
-        diff += 24 * 60
+        diff += 24 * 60 # in case meal time is on next day
 
     return diff
 
